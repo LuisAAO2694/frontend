@@ -1,0 +1,88 @@
+#encuesta-content select {
+    color: black !important;
+}
+
+
+h2, h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black !important; 
+  max-width: 1300px;
+  margin: 30px auto; /* Agregado para centrar */
+}
+
+p, label, option {
+  font-size: 17px;
+  color: #333;
+}
+
+#recomendaciones, #estrategias, #verificacion-fia, #encuesta-content {
+  background-color: #223971;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 30px auto; /* Margen superior e inferior de 30px, y centrado horizontalmente */
+  margin-bottom: 20px; /* Espacio entre cada elemento */
+  max-width: 1400px;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; /* Espacio entre cada gráfica */
+}
+
+
+#page-content {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 30px auto; /* Margen superior e inferior de 30px, y centrado horizontalmente */
+  margin-bottom: 20px; /* Espacio entre cada elemento */
+  max-width: 1400px;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilos para los select */
+select {
+  padding: 5px; /* Añade un padding alrededor del texto dentro del select */
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 5px; /* Añade bordes redondeados */
+  background-color: #f0f0f0; /* Color de fondo */
+  color: #333; /* Color del texto */
+  font-size: 17px; /* Tamaño del texto */
+  appearance: none; /* Quita los estilos predeterminados del navegador */
+}
+
+/* Estilos adicionales para cuando el select está enfocado */
+select:focus {
+  outline: none; /* Quita el contorno de enfoque */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade una sombra alrededor del select */
+}
+
+#P1 {
+  margin-top: 10px;
+}
+
+.frac {
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.frac span {
+  display: block;
+}
+
+.symbol {
+  border-bottom: 1px solid #000;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}

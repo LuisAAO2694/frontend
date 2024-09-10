@@ -1,0 +1,657 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.simulation-container {
+    margin-bottom: 20px;
+}
+
+.weather-container {
+    text-align: center;
+}
+
+.title {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: black;
+    margin-top: 20px;
+}
+
+.weather-config {
+    margin-top: 20px;
+}
+
+.section-title {
+    color: black;
+}
+
+.weather-box {
+    background-color: #223971;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.label {
+    color: white;
+}
+
+.temperature-range {
+    color: white;
+    margin-left: 10px;
+}
+
+.input-field {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: dodgerblue;
+}
+
+/* --------------------------------------- */
+.aerodynamics-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.aerodynamics-title {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.aerodynamics-subtitle {
+    color: #ffc906;
+    font-weight: lighter;
+}
+
+.aerodynamics-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.aerodynamics-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.aerodynamics-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.aerodynamics-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.aerodynamics-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.aerodynamics-input span {
+    color: white;
+    text-align: center;
+}
+
+.aerodynamics-result {
+    color: white;
+    margin-top: 20px;
+}
+
+.input-field2 {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    
+}
+
+/* --------------------------------------- */
+
+.moment-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.moment-title {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.moment-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.moment-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.moment-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.moment-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.moment-input span {
+    color: white;
+    text-align: center;
+}
+
+.moment-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.difusor-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.difusor-title {
+    color: #ffc906;
+    font-weight: lighter;
+}
+
+.downforce-section-title {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.downforce-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.downforce-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.downforce-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.downforce-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.downforce-input span {
+    color: white;
+    text-align: center;
+}
+
+.downforce-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.momento-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.momento-title {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.momento-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.momento-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.momento-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.momento-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.momento-input span {
+    color: white;
+    text-align: center;
+}
+
+.momento-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.suspension-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.suspension-title {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.pull-road-subtitle {
+    color: #ffc906;
+    font-weight: lighter;
+}
+
+.suspension-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.suspension-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.suspension-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.suspension-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.suspension-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.suspension-input span {
+    color: white;
+    text-align: center;
+}
+
+.suspension-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.rigidez-suspension-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.rigidez-suspension-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.rigidez-suspension-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.rigidez-suspension-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.rigidez-suspension-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.rigidez-suspension-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.rigidez-suspension-input span {
+    color: white;
+    text-align: center;
+}
+
+.rigidez-suspension-result {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* --------------------------------------- */
+.motor-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.motor-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.motor-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.motor-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.motor-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.motor-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.motor-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.motor-input span {
+    color: white;
+    text-align: center;
+}
+
+.motor-result {
+    color: white;
+    margin-top: 20px;
+}
+/* --------------------------------------- */
+
+.rendimiento-termico-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.rendimiento-termico-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.rendimiento-termico-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.rendimiento-termico-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.rendimiento-termico-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.rendimiento-termico-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.rendimiento-termico-input span {
+    color: white;
+    text-align: center;
+}
+
+.rendimiento-termico-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.transmision-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.transmision-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.transmision-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.transmision-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.transmision-input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.transmision-input label {
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.transmision-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.transmision-input span {
+    color: white;
+}
+
+.transmision-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.frenos-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.frenos-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.frenos-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.frenos-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.frenos-input {
+    margin-top: 10px;
+}
+
+.frenos-input label {
+    color: white;
+    margin-right: 5px;
+}
+
+.frenos-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.frenos-input span {
+    color: white;
+}
+
+.frenos-result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* --------------------------------------- */
+
+.distancia-frenado-container {
+    text-align: center;
+    background-color: #223971;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.distancia-frenado-section-title {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.distancia-frenado-description {
+    color: gold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.distancia-frenado-input {
+    margin-top: 10px;
+}
+
+.distancia-frenado-input label {
+    color: white;
+    margin-right: 5px;
+}
+
+.distancia-frenado-input input {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.distancia-frenado-input span {
+    color: white;
+}
+
+.distancia-frenado-result {
+    color: white;
+    margin-top: 20px;
+}

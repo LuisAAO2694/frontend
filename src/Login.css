@@ -1,0 +1,13 @@
+/* Login.css */
+
+.login-container {
+  background-color: #001a30;
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 25%;
+}
+  

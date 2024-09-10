@@ -1,0 +1,15 @@
+/* Home.css */
+body {
+    background-color: #001a30 !important;
+    /* Añade !important para aumentar la especificidad */
+}
+.iframe {
+    margin-top: -90px !important;
+    clip-path: polygon(
+      0 20%,
+      100% 20%,
+      100% 100%,
+      0 100%
+    ) !important;
+    border: none  !important;
+  }

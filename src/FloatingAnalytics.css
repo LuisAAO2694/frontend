@@ -1,0 +1,49 @@
+.floating-analytics {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffe6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 9999;
+  }
+  
+  .analytics-content {
+    margin-bottom: 20px;
+  }
+  
+  .close-button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Mover el botón hacia la derecha */
+    margin-top: -10px; /* Ajustar la posición vertical */
+    margin-right: 10px; /* Añadir margen derecho para separar del borde */
+    position: relative; /* Usar posición relativa para ajustar la posición */
+    top: -50px; /* Mover el botón un poco más arriba */
+}
+
+  
+  .alert-success {
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #223971;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+}
+
+.alert-success.show {
+    opacity: 1;
+}

@@ -1,0 +1,28 @@
+.simulacion-container {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .paginacion-container {
+    margin-top: 20px;
+  }
+  
+  .paginacion-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #233971;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .paginacion-button.active {
+    background-color: #ffc906;
+    color: black;
+  }
+  
