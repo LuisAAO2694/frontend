@@ -1,5 +1,7 @@
 # Frontend & interaction on the page - ThePitStop
-by Luis Alfonso Acosta Ortiz
+© Luis Alfonso Acosta Ortiz. All Rights Reserved
+
+Backend: 
 
 
 # Getting Started with Create React App
