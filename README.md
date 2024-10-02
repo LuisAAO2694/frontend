@@ -4,6 +4,10 @@
 Backend: https://github.com/LuisAAO2694/thepitstop1
 
 
+Use of the site
+An informative unofficial Formula 1 page for fans.
+f1-react.vercel.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
